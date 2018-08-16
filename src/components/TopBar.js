@@ -17,18 +17,16 @@ class TopBar extends Component {
   }
 
   searchUpdated (event) {
+    this.props.closeWinInfo()
     this.setState({searchTerm: event.target.value.trim()})
   }
 
   clickList (event) {
-    console.log(event.target.innerHTML);
     this.setState({searchTerm: event.target.innerHTML.trim()})
   }
 
   getMarker(marker) {
-    console.log(marker);
     this.props.callback(marker)
-
   }
 
   render() {

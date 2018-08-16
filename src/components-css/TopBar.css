@@ -1,3 +1,11 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
+
 #top-nav-bar {
   height: 50px;
   position: absolute;
@@ -34,4 +42,14 @@
 .locations-list li:hover {
   background-color: #000;
   color: #fff;
+}
+
+@media screen and (max-width: 475px) {
+  #search-input {
+    width: 242px;
+  }
+
+  .locations-list {
+    width: 248px;
+  }
 }
