@@ -1,0 +1,32 @@
+#top-nav-bar {
+  height: 50px;
+  position: absolute;
+  width: 100%;
+  z-index: 9000;
+  background-color: black;
+}
+
+#search-input {
+  margin-top: 30px;
+  width: 442px;
+  height: 30px;
+  border: none;
+  box-shadow: 0 4px 20px 0 rgba(0,0,0,0.19);
+  margin-bottom: 5px;
+  font-size: 14pt;
+  padding-left: 8px;
+}
+
+.locations-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    width: 450px;
+}
+
+.locations-list li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
