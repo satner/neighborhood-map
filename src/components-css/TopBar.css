@@ -46,10 +46,24 @@ html, body {
 
 @media screen and (max-width: 475px) {
   #search-input {
-    width: 242px;
+    width: 350px;
   }
 
   .locations-list {
-    width: 248px;
+    width: 355px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  #search-input {
+    width: 250px;
+  }
+
+  .locations-list {
+    width: 255px;
+  }
+
+  #info-box {
+    width: 200px;
   }
 }

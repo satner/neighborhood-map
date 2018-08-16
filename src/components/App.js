@@ -83,7 +83,7 @@ class App extends Component {
       let address = '<div tabIndex=0 role="text" aria-label="location address"> <b>Adrress </b>: ' +  data.response.groups[0].items[0].venue.location.address + '</div> <hr>'
       let postalCode = '<div tabIndex=0 role="text" aria-label="location postal code"> <b>Postal code </b>: ' +  data.response.groups[0].items[0].venue.location.postalCode + '</div> <hr>'
       let city = '<div tabIndex=0 role="text" aria-label="city name"> <b>City </b>: ' +  data.response.groups[0].items[0].venue.location.city + '</div> <hr>'
-      self.state.infoWindow.setContent(name + address + postalCode + city)
+      self.state.infoWindow.setContent('<div id=\"info-box\"> ' + name + address + postalCode + city + "</div>")
     })
     .catch(function(err) {
       self.state.infoWindow.setContent("Error while retriving data", err)
