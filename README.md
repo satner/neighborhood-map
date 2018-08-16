@@ -16,4 +16,4 @@ A single-page application using React featuring a map of my neighborhood
 2. Open project folder with terminal
 3. Run `npm install`
 4. Run `npm start`
-5 Finally click the follow link [Neighborhood Map App](http://localhost:3000/)
+5. Finally click the follow link [Neighborhood Map App](http://localhost:3000/)
