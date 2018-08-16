@@ -30,3 +30,8 @@
   border-bottom: 1px solid #ddd;
   background-color: #fff;
 }
+
+.locations-list li:hover {
+  background-color: #000;
+  color: #fff;
+}
