@@ -4,9 +4,9 @@ A single-page application using React featuring a map of my neighborhood
 
 # Project implements
 
-* ReactJS
+* [ReactJS](https://reactjs.org/)
 * Google Maps API
-* Foursquare API
+* [Foursquare API](https://developer.foursquare.com/)
 * Offline first approach
 * Components render on-screen in responsive manner
 
